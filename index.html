@@ -1,103 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SuperClap for Medium</title>
-  <meta name="author" content="MUDENYO GRIFFINS">
-  <meta name="descrition" content="Landing page of the TRASH TRACK">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Track - Manage Waste Efficiently</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
-    <div class="headerLayout">
-      <a href="/" class="headerImgLink">
-        <div class="headerImgContainer"><img src="./images/icon.png" alt="The superclap icon"></div>
-      </a>
-      <nav class="navLayout">
-        <a href="#features">Features</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <h1>Trash Track</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+    </nav>
   </header>
   <main>
-    <div class="mainLayout">
-      <div class="mainImgContainer">
-        <img src="./images/cover-image.jpg" alt="An image of superclap being used on a medium article">
-      </div>
-      <h1>Superclap for Medium</h1>
-      <p>Enhancing Articles Engagement with a Single Click</p>
-      <button>Try Superclap Now</button>
-    </div>
+    <section class="hero">
+      <h2>Manage Your Waste, <br> Protect Our Planet</h2>
+      <p>Trash Track is an ecosystem Android app that empowers you to track your waste, learn responsible disposal methods, and connect with local recycling initiatives.</p>
+      <a href="#download" class="download-button">Download the App</a>
+    </section>
+    <section class="features" id="features">
+      <h3>Features</h3>
+      <ul>
+        <li>Track your waste composition (recyclables, organics, etc.)</li>
+        <li>Learn proper disposal methods for different waste types</li>
+        <li>Find nearby recycling centers and waste collection points</li>
+        <li>(Add more features as needed)</li>
+      </ul>
+    </section>
   </main>
-  <section id="features">
-    <div class="featuresLayout">
-      <article class="feature">
-        <div class="featureImgContainer">
-          <img src="./images/feature1.jpg" alt="Single-Click buttons from Superclap on every Medium article">
-        </div>
-        <div class="featureText">
-          <h2>Easy Clapping</h2>
-          <p>Automate your claps with a single click, making it easier and faster to show appreciation.</p>
-        </div>
-      </article>
-      <article class="feature">
-        <div class="featureImgContainer">
-          <img src="./images/feature2.jpg" alt="The extension's interface for customizing amount of claps per button">
-        </div>
-        <div class="featureText">
-          <h2>User-Friendly Interface</h2>
-          <p>Intuitive and clean design that seamlessly integrates with Medium.</p>
-        </div>
-      </article>
-    </div>
-  </section>
-  <section id="about">
-    <div class="aboutLayout">
-      <div class="aboutText">
-        <p>&#x275D SuperClap was inspired by the tedious process of clapping multiple times on Medium articles. <br> <br>
-          As a frequent reader, I wanted a way to simplify this process so as to enhance user engagement. &#x275E
-        </p>
-      </div>
-      <div class="ytVideoContainer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vMiIP9rBMK8?si=l3MiV2GPLni2mGTw"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-      </div>
-    </div>
-  </section>
-  <footer id="contact">
-    <div class="footerLayout">
-      <h2>Team</h2>
-      <div class="personInfoLayout">
-        <div class="personInfo">
-          <div class="avatarImgContainer"><img src="./images/avatar_ade.svg" alt="Avatar for Sodiq 'Ade' Sanusi"></div>
-          <div class="personInfoText">
-            <h3>Sodiq "Ade" Sanusi</h3>
-            <p>Project Lead and Software Engineer</p>
-            <a href="https://github.com/sodiqsanusi/">GitHub</a>
-          </div>
-        </div>
-        <div class="personInfo">
-          <div class="avatarImgContainer"><img src="./images/avatar_ay.svg" alt="Avatar for Mide Oladele"></div>
-          <div class="personInfoText">
-            <h3>Ayomide Oladele</h3>
-            <p>Interface Designer</p>
-            <a href="https://mideoladele.webflow.io/">Website</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <footer>
+    <p>&copy; 2024 Trash Track</p>
   </footer>
 </body>
-
+</html>
