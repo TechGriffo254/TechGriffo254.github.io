@@ -72,6 +72,12 @@ footer {
 .download-button:hover {
   background-color: #2e8b00; /* Darker green on hover */
 }
+.about-me {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+}
 
 #features { /* Add styling for section with ID "features" (optional) */
   /* Add styles here to customize the appearance of the features section */
