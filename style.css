@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #38b000; /* Green color */
+  color: #fff; /* White text */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit; /* Inherit white text color from header */
+  margin-right: 20px;
+}
+
+main {
+  padding: 50px;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.features {
+  margin-top: 50px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.download-button {
+  background-color: #38b000; /* Match header background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.download-button:hover {
+  background-color: #2e8b00; /* Darker green on hover */
+}
+
+#features { /* Add styling for section with ID "features" (optional) */
+  /* Add styles here to customize the appearance of the features section */
+}
